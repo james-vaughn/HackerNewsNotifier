@@ -1,6 +1,7 @@
 # HackerNewsNotifier
 
-Application which pushes notifications to desktop about new hackerNews articles
+Application which pushes notifications to desktop about new hackerNews articles.
+To run the app, run "mix run" from the base directory of the project.
 
 ## Installation
 
