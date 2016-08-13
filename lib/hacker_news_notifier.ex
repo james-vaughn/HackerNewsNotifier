@@ -11,9 +11,9 @@ defmodule HackerNewsNotifier do
 	end
     end
     
-    def secondElement(item), do: elem(item, 1)
+    defp secondElement(item), do: elem(item, 1)
     
-    def getTitleElements(feedText) do
+    defp getTitleElements(feedText) do
 	feedText
 	|> Exquery.tree
 	|> Exquery.Query.all({:tag, "title", []})
